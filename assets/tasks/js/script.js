@@ -16,6 +16,24 @@ function Num(n)
   console.log(Num(45));
 
 
+
+
+  //task3
+  function fact(n) {
+   if (n===0 ||n===1) {
+    return  1;
+   } else{
+    return n * fact(n - 1);
+   }
+    
+  }
+  console.log(fact(5));
+
+
+
+
+
+
   //task4
   function Login(email, password) {
     if (email==="lorem@code.edu.az"&& password==="12345") {
@@ -25,3 +43,5 @@ function Num(n)
     }
 }
   console.log(Login("lorem@code.edu.az", "12345"));
+
+
