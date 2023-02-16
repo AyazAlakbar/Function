@@ -31,6 +31,10 @@ function Num(n)
   console.log(fact(5));
 
 
+
+
+
+
 //task2
 function Sum(){
     let sum=0;
@@ -46,7 +50,10 @@ function Sum(){
     }
     
 }
-console.log(Sum(2,4,5,3));
+ console.log(Sum(2,4,5,3));
+
+
+
 
 
 
@@ -59,5 +66,33 @@ console.log(Sum(2,4,5,3));
     }
 }
   console.log(Login("lorem@code.edu.az", "12345"));
+
+
+
+
+
+
+//task5
+
+function Summ(numbers){
+  let sum=0;
+    let arr=Array.from(arguments);
+     {
+        for (let i = 0; i < arr.length; i++) {
+            
+            const element = arr[i];
+            if (arr[i]%2!==0)
+            sum+=element
+        }
+        return sum
+    }
+    
+}
+ console.log(Summ(2,4,5,7,3));
+
+
+
+
+
 
 
