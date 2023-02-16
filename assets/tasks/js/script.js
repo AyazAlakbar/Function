@@ -33,7 +33,7 @@ function Num(n)
 
 
 
-
+  
 
 //task2
 function Sum(){
@@ -95,4 +95,19 @@ function Summ(numbers){
 
 
 
-
+//task6
+function Count(numbers){
+  let count=0;
+    let arr=Array.from(arguments);
+     {
+        for (let i = 0; i < arr.length; i++) {
+            
+            const element = arr[i];
+            if (arr[i]%2===0)
+            count++
+        }
+        return count
+    }
+    
+}
+console.log(Count(2,4,5,12,7,8,3));
