@@ -18,7 +18,8 @@ function Num(n)
 
 
 
-  //task3
+
+//task2
   function fact(n) {
    if (n===0 ||n===1) {
     return  1;
@@ -30,16 +31,31 @@ function Num(n)
   console.log(fact(5));
 
 
+//task2
+function Sum(){
+    let sum=0;
+    let arr=Array.from(arguments);
+     {
+        for (let i = 0; i < arr.length; i++) {
+            
+            const element = arr[i];
+            if (arr[i]%2===0)
+            sum+=element**2
+        }
+        return sum
+    }
+    
+}
+console.log(Sum(2,4,5,3));
 
 
 
-
-  //task4
+//task4
   function Login(email, password) {
     if (email==="lorem@code.edu.az"&& password==="12345") {
-        return "success"
+        return "Enter Success"
     } else {
-        return "email ve ya parol sefdir"
+        return "Wrong email or password"
     }
 }
   console.log(Login("lorem@code.edu.az", "12345"));
